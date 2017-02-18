@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+*.d
+ntest
+bitsettest1
+bitsettest2
+simplebitsettest
