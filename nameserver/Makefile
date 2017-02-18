@@ -15,11 +15,14 @@ LDFLAGS =   -g
 
 # Targets
 PROGS = nstest
+PROGS += nstime
 
 all: $(PROGS)
 
 # Targets rely on implicit rules for compiling and linking
-nstest: nstest.o vns.o
+nstest: nstest.o vns.o mns.o umns.o hns.o
+
+nstime: nstime.o vns.o mns.o umns.o hns.o
 
 # Phony targets
 .PHONY: all clean

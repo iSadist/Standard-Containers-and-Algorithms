@@ -29,6 +29,7 @@
 *.app
 *.d
 ntest
+nstime
 bitsettest1
 bitsettest2
 simplebitsettest
